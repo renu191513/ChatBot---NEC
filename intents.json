@@ -1,0 +1,1868 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Howdy",
+          "Greetings",
+          "I need help",
+          "Can you help",
+          "Good day",
+          "Hi there",
+          "Good morning",
+          "Good evening",
+          "Good afternoon",
+          "Yo",
+          "Sup",
+          "What's up"
+      ],
+      "responses": [
+          "Hey, how can I be of assistance?"
+      ]
+  },
+  {
+      "tag": "identity",
+      "patterns": [
+          "What are you?",
+          "Who are you?",
+          "What is your name?",
+          "Who's this?",
+          "What's this?",
+          "Tell me about yourself"
+      ],
+      "responses": [
+          "I am a chatbot of NEC. If you have more queries please visit our website."
+      ]
+  },
+  {
+      "tag": "mech_department",
+      "patterns": [
+          "Mech dept",
+          "Tell me about the Mechanical Engineering Department",
+          "Tell me about the Mechanical Department",
+          "Mechanical Department",
+          "Mechanical Engineering Department",
+          "Can you provide information about the Mechanical Engineering Department",
+          "Share details about the Mechanical Engineering Department",
+          "What's the deal with Mechanical Engineering?",
+          "Mech Engineering Department",
+          "Mechanical Engg Department"
+      ],
+      "responses": [
+          "The Department of Mechanical Engineering is established in the year 1984. The department has qualified and experienced faculty members with industrial and research backgrounds to achieve excellence in academic and research activities. NBA has accredited the department since 2000, and presently accredited under the Tier – I category. The department is recognized as a Research Centre by Anna University, Chennai. The department has fetched research projects worth Rs. 1.72 crores from various agencies such as DST, BRNS and AICTE etc,. The department has 12 Ph.D qualified faculty members and all of them are recognized as Research Supervisors by Anna University Chennai. So far, 35 Scholars have completed their PhD from Research Center, and 12 scholars are currently doing research. The CDIO lab has been established in the department in 2016 for new product development activities. More than 36 products were developed, among which five were commercialized. The department has published five Patents and twelve under process."
+      ]
+  },
+  {
+      "tag": "mech_department_vision",
+      "patterns": [
+          "What is the vision of the Mechanical Engineering Department?",
+          "What's the goal of Mech Engg Department?"
+      ],
+      "responses": [
+          "Producing globally competitive Mechanical Engineers with social responsibilities."
+      ]
+  },
+  {
+      "tag": "mech_department_mission",
+      "patterns": [
+          "What is the mission of the Mechanical Engineering Department?",
+          "What's Mech Engg Department all about?"
+      ],
+      "responses": [
+          "Imparting quality education by providing an excellent Teaching-Learning environment. Inculcating qualities of continuous learning, professionalism, team spirit, communication skill and leadership with social responsibilities. Promoting leading-edge research and development through collaboration with academia and industry."
+      ]
+  },
+  {
+      "tag": "mech_department_ug",
+      "patterns": [
+          "Tell me about the undergraduate program in Mechanical Engineering",
+          "What's the course like for Mechanical Engg?"
+      ],
+      "responses": [
+          "Year of Establishment: 1984. Student Strength: 60"
+      ]
+  },
+  {
+      "tag": "mech_department_pg",
+      "patterns": [
+          "Tell me about the postgraduate program in Mechanical Engineering",
+          "What's the deal with postgrad in Mech Engg?"
+      ],
+      "responses": [
+          "Year of Establishment: 2004. Student Strength: 6"
+      ]
+  },
+  {
+      "tag": "mech_department_phd",
+      "patterns": [
+          "Tell me about the PhD program in Mechanical Engineering",
+          "What's the scoop on PhD in Mech Engg?"
+      ],
+      "responses": [
+          "Year of Establishment: 2006. Full-time Scholars: 2. Part-time Scholars: 10. Total Scholars: 35"
+      ]
+  },
+    {
+      "tag": "mech_department_hod",
+      "patterns": ["Who is the Head of the Mechanical Engineering Department?", "Hod of Mech Dept", "Hod mech"],
+      "responses": ["Dr K. Manisekar Professor & Head"]
+    },
+      {
+        "tag": "mech_department_faculty",
+        "patterns": ["Tell me about the faculty in the Mechanical Engineering Department"],
+        "responses": ["1. Dr Iyah Raja. S. - Professor, 2. Dr Venkatkumar. D. - Professor, 3. Dr Harichandran. R. - Professor, 4. Dr Kathiresan. M - Associate Professor, 5. Dr Ramanan. P - Assistant Professor (SG), 6. Dr Sankar. I - Assistant Professor (SG), 7. Dr Vigneshkumar. D - Assistant Professor (SG), 8. Dr Michael Thomas Rex. F - Assistant Professor (SG), 9. Mr Vijayakumar. R - Assistant Professor (SG), 10. Mr Vignesh Kumar. R - Assistant Professor (SG), 11. Mr Prince Abraham. B - Assistant Professor, 12. Mr Sundara Bharathi S. R - Assistant Professor, 13. Mr Andrews. A - Assistant Professor, 14. Mr Sudalaiyandi. K - Assistant Professor, 15. Mr Jayavenkatesh. R - Assistant Professor, 16. Mr. K. Thoufiq Mohammed - Assistant Professor, 17. Mr N. Muthu Saravanan - Assistant Professor, 18. Mr C. Veera Ajay - Assistant Professor, 19. Dr W. Beno Wincy - Assistant Professor, 20. Mr K. Pradeepraj - Assistant Professor"]
+      },
+      {
+        "tag": "civil_department",
+        "patterns": [
+          "civil dept",
+          "Tell me about the civil Engineering Department",
+          "Tell me about the civil Department",
+          "civil Department",
+          "civil Engineering Department",
+          "Can you provide information about the civil Engineering Department",
+          "Share details about the civil Engineering Department",
+          "What's up with the civil Engineering Department?",
+          "What can you tell me about civil Engineering?",
+          "Give me the scoop on civil Engineering",
+          "I'm curious about civil Engineering"
+        ],
+        "responses": [
+          "The Civil Engineering Department started in the year 2012, offers B.E-Civil Engineering. The department has its own well-equipped state of art infrastructure. The department follows technology enabled teaching learning process like Learning Management System (LMS) and Classes are well equipped with Smart Monitors. The department is also a member of Institute of Engineers (India) – Student’s Chapter and Indian Society for Technical Education (ISTE) as professional bodies. The Civil Engineering Association (CEA) serves as a platform for students to make technical presentations, gain knowledge about recent advancements. The department has signed MoU’s with Federation of All Civil Engineers Association and CADD Technologies, Coimbatore for Student Mentor programme, to train Civil Engineering students. It also offers consultancy services in Structural, Environmental, Survey and Geotechnical fields."
+        ]
+      },
+      {
+        "tag": "civil_department_vision",
+        "patterns": [
+          "What is the vision of the civil Engineering Department?",
+          "What's the vision for civil Engineering?",
+          "What does the civil Engineering Department aspire to?",
+          "What are the goals of civil Engineering?"
+        ],
+        "responses": [
+          "Producing outstanding civil engineering professionals with human values to face future challenges"
+        ]
+      },
+      {
+        "tag": "civil_department_mission",
+        "patterns": [
+          "What is the mission of the civil Engineering Department?",
+          "What's the mission for civil Engineering?",
+          "What does the civil Engineering Department aim to achieve?",
+          "What is civil Engineering striving for?"
+        ],
+        "responses": [
+          "To provide with excellent teaching and research ambience. To prepare student for leadership roles in civil engineering. To facilitate student with lifetime skills and human values. To collaborate with industries to meet the ever challenging environment."
+        ]
+      },
+      {
+        "tag": "civil_department_ug",
+        "patterns": [
+          "Tell me about the undergraduate program in civil Engineering",
+          "What's the scoop on civil Engineering undergrad program?",
+          "Give me the details on civil Engineering undergrad program"
+        ],
+        "responses": [
+          "Year of Establishment: 2012. Student Strength: 191"
+        ]
+      },
+      {
+        "tag": "civil_department_pg",
+        "patterns": [
+          "Tell me about the postgraduate program in civil Engineering",
+          "What's the deal with civil Engineering postgrad program?",
+          "Give me the lowdown on civil Engineering postgrad program"
+        ],
+        "responses": [
+          "No pg course in civil."
+        ]
+      },
+      {
+        "tag": "civil_department_phd",
+        "patterns": [
+          "Tell me about the PhD program in civil Engineering",
+          "What's the story with civil Engineering PhD program?",
+          "Give me the details on civil Engineering PhD program"
+        ],
+        "responses": [
+          "There is no phd course in civil."
+        ]
+      },
+      {
+        "tag": "civil_department_hod",
+        "patterns": [
+          "Who is the Head of the civil Engineering Department?",
+          "Hod of civil Dept",
+          "Hod civil",
+          "Who's in charge of civil Engineering?",
+          "Who leads civil Engineering?"
+        ],
+        "responses": [
+          "Dr.C.Puthiya Sekar Professor & Head"
+        ]
+      },
+      {
+        "tag": "civil_department_faculty",
+        "patterns": [
+          "Tell me about the faculty in the civil Engineering Department",
+          "Who teaches in civil Engineering?",
+          "Give me the rundown on civil Engineering faculty",
+          "What's the deal with civil Engineering faculty?"
+        ],
+        "responses": [
+          "Dr.C.Puthiya Sekar. - Professor and head. Dr.V.Kannan. - Professor. Dr.C.Chella Gifta - Associate Professor. Mrs.M.Balamaheswari - Assistant Professor. Mr.V.Arulpandian - Assistant Professor. Mr.B.Gowtham - Assistant Professor. Mr.S.Kannan - Assistant Professor. Mr.A. Darral Alfred - Assistant Professor. Mr.P. Kasirajan- Assistant Professor. Mr.M.Franchis David - Assistant Professor. Mr.M.Ashokpandiyan - Assistant Professor. Mr.K.Marimuthu - Assistant Professor. Ms.R.Harshani- Assistant Professor. Ms.S.Sona - Assistant Professor."
+        ]
+      },
+      {
+        "tag": "Information_Technology_department",
+        "patterns": [
+          "IT dept",
+          "Tell me about the IT Department",
+          "Tell me about the Information Technology Department",
+          "IT Department",
+          "Information Technology Department",
+          "Can you provide information about the Information Technology Department",
+          "Share details about the Information Technology Department",
+          "What's up with the Information Technology Department?",
+          "What can you tell me about Information Technology?",
+          "Give me the scoop on Information Technology",
+          "I'm curious about Information Technology"
+        ],
+        "responses": [
+          "The IT department was started in the year 2001 and as of today, it offers an undergraduate programme B.Tech., Information Technology and a PG programme M.Tech., Information and Cyber Warfare. The department is augmented with qualified faculty with rich teaching experience. The department is well equipped with advanced laboratories and a research centre has been setup to promote research in the department. Faculty have been doing research in the areas like IoT, Data Analytics, Image Processing, Optical communication, Network security, Mobile Ad-hoc Networks etc. The department is fully accommodated with modern Hardware and Software accessibility to cater to the academic needs of students and staff. Our students have undertaken internships in many reputed MNCs and consistently maintaining the placement record of above 90% every year."
+        ]
+      },
+      {
+        "tag": "IT_department_vision",
+        "patterns": [
+          "What is the vision of the Information Technology Department?",
+          "What's the vision for Information Technology?",
+          "What does the Information Technology Department aspire to?",
+          "What are the goals of Information Technology?"
+        ],
+        "responses": [
+          "To produce technically competent and value based IT Professionals to meet the current challenges of the modern IT industry."
+        ]
+      },
+      {
+        "tag": "Information_Technology_department_mission",
+        "patterns": [
+          "What is the mission of the IT Engineering Department?",
+          "What's the mission for IT Engineering?",
+          "What does the IT Engineering Department aim to achieve?",
+          "What is IT Engineering striving for?"
+        ],
+        "responses": [
+          "Imparting quality education with innovative components in teaching learning process. Conducting student centric programme to enhance communication, team spirit, leadership skills and self learning. Motivating the students to realize the need of ethics and human values. Developing a conducive environment for collaborative research."
+        ]
+      },
+      {
+        "tag": "IT_department_ug",
+        "patterns": [
+          "Tell me about the undergraduate program in Information Technology",
+          "What's the scoop on Information Technology undergrad program?",
+          "Give me the details on Information Technology undergrad program"
+        ],
+        "responses": [
+          "Year of Establishment: 2001. Student Strength: 60"
+        ]
+      },
+      {
+        "tag": "IT_department_pg",
+        "patterns": [
+          "Tell me about the postgraduate program in Information Technology",
+          "What's the deal with Information Technology postgrad program?",
+          "Give me the lowdown on Information Technology postgrad program"
+        ],
+        "responses": [
+          "Year of Establishment: 2009. Student Strength: 18"
+        ]
+      },
+      {
+        "tag": "IT_department_phd",
+        "patterns": [
+          "Tell me about the PhD program in Information Technology",
+          "What's the story with Information Technology PhD program?",
+          "Give me the details on Information Technology PhD program"
+        ],
+        "responses": [
+          "Year of Establishment: 2016. Full-time Scholars: 4. Part-time Scholars: 32. Awarded: 26"
+        ]
+      },
+      {
+        "tag": "IT_department_hod",
+        "patterns": [
+          "Who is the Head of the Information Technology Department?",
+          "Hod of IT Dept",
+          "Hod IT",
+          "Who's in charge of Information Technology?",
+          "Who leads Information Technology?"
+        ],
+        "responses": [
+          "Dr.K.G.Srinivasagan Professor & Head"
+        ]
+      },
+      {
+        "tag": "IT_department_faculty",
+        "patterns": [
+          "Tell me about the faculty in the Information Technology Department",
+          "Who teaches in Information Technology?",
+          "Give me the rundown on Information Technology faculty",
+          "What's the deal with Information Technology faculty?",
+          "IT faculty",
+          "It faculty"
+        ],
+        "responses": [
+          "Dr.K.G.Srinivasagan. - Professor and head. Dr.B.Paramasivan - Professor. Dr.R.Muthukkumar - Professor. Dr.S.Chidambaram - Associate Professor. Dr.V.Manimaran - Associate Professor. Dr.S.Rajagopal - Assistant Professor(SG). Ms.V.Anitha - Assistant Professor. Ms.N.Gowthami - Assistant Professor. Ms.M.Manimegalai- Assistant Professor. Ms.S.Santhi - Assistant Professor. Mr.P.G.Siva Sharma Karthick - Assistant Professor. Ms.G.Ramya - Assistant Professor. Ms.R.Suguna- Assistant Professor. Ms.R.Madhu - Assistant Professor. Ms.M.Malathi- Assistant Professor."
+        ]
+      },
+      {
+        "tag": "AIDS_department",
+        "patterns": [
+          "AIDS dept",
+          "Tell me about the AIDS Department",
+          "Tell me about the Artificial Intelligence and Data Science Department",
+          "AIDS Department",
+          "Artificial Intelligence and Data Science Department",
+          "Can you provide information about the Artificial Intelligence and Data Science Department",
+          "Share details about the AIDS Department",
+          "What's up with the Artificial Intelligence and Data Science Department?",
+          "What can you tell me about Artificial Intelligence and Data Science?",
+          "Give me the scoop on Artificial Intelligence and Data Science",
+          "I'm curious about Artificial Intelligence and Data Science"
+        ],
+        "responses": [
+          "The Department of Artificial Intelligence and Data Science was established in the year 2022. The goal of the department is to ensure the academic excellence in students with wide exposure of research and career opportunities. The unique undergraduate program, B.Tech. Artificial Intelligence and Data Science (AI & DS), aims the students to acquire technical skills to perform data analytics, develop robotics automation systems and visualization in emerging real-time applications. Program envisions to equip students with the ability to identify and assess societal, health, safety and cultural issues with an emphasize on identifying their consequent responsibilities as engineers of offering optimal and effective solutions. The department is well equipped with state-of-the-art infrastructure to empower the students with the state of art technologies."
+        ]
+      },
+      {
+        "tag": "AIDS_department_vision",
+        "patterns": [
+          "What is the vision of the AIDS Department?",
+          "What's the vision for Artificial Intelligence and Data Science?",
+          "What does the AIDS Department aspire to?",
+          "What are the goals of Artificial Intelligence and Data Science?"
+        ],
+        "responses": [
+          "To Produce globally competent, innovative, Computing professionals to meet current challenges in the field of Artificial intelligence and Data Science with social responsibilities."
+        ]
+      },
+      {
+        "tag": "AIDS_department_mission",
+        "patterns": [
+          "What is the mission of the AIDS Engineering Department?",
+          "What's the mission for Artificial Intelligence and Data Science?",
+          "What does the AIDS Department aim to achieve?",
+          "What is Artificial Intelligence and Data Science striving for?"
+        ],
+        "responses": [
+          "Offering well-balanced curriculum with state of the art technologies to impart professional competencies and transferable skills. Bringing innovations in Teaching-Learning process through experienced learning and project/product based learning. Collaborating National and International Industries and Academia to develop foresight technologies in Artificial intelligence and Data Science."
+        ]
+      },
+      {
+        "tag": "AIDS_department_ug",
+        "patterns": [
+          "Tell me about the undergraduate program in AIDS",
+          "What's the scoop on AIDS undergrad program?",
+          "Give me the details on AIDS undergrad program"
+        ],
+        "responses": [
+          "Year of Establishment: 2022. Student Strength: 60"
+        ]
+      },
+      {
+        "tag": "AIDS_department_pg",
+        "patterns": [
+          "Tell me about the postgraduate program in AIDS",
+          "What's the deal with AIDS postgrad program?",
+          "Give me the lowdown on AIDS postgrad program"
+        ],
+        "responses": [
+          "No pg course in AIDS"
+        ]
+      },
+      {
+        "tag": "AIDS_department_phd",
+        "patterns": [
+          "Tell me about the PhD program in AIDS",
+          "What's the story with the PhD program in AIDS?",
+          "Give me the details on AIDS PhD program"
+        ],
+        "responses": [
+          "Year of Establishment: 2022. Pursuing: 2. Awarded: 4"
+        ]
+      },
+      {
+        "tag": "AIDS_department_hod",
+        "patterns": [
+          "Who is the Head of the Artificial Intelligence and data science Department?",
+          "Hod of AIDS Dept",
+          "Hod AIDS",
+          "Who leads Artificial Intelligence and data science?"
+        ],
+        "responses": [
+          "Dr.V.Kalaivani M.E.,Ph.D., Professor & Head"
+        ]
+      },
+      {
+        "tag": "AIDS_department_faculty",
+        "patterns": [
+          "Tell me about the faculty in the AIDS Department",
+          "Who teaches in AIDS?",
+          "Give me the rundown on AIDS faculty",
+          "What's the deal with AIDS faculty?"
+        ],
+        "responses": [
+          "Dr.V.Kalaivani M.E.,Ph.D.- Professor and head. Ms.K.Poorani M.E. - Assistant Professor. Ms.P.Rampriya M.E. -Assistant Professor. Ms.R.Binusha M.E - Assistant Professor. Ms.G.Dhivya M.E - Assistant Professor "
+        ]
+      },
+      {
+        "tag": "Science and Humanities_department",
+        "patterns": [
+          "S and H dept",
+          "Tell me about the Science and Humanities Department",
+          "Tell me about the Science and Humanities",
+          "S&H Department",
+          "Science and Humanities Department",
+          "Can you provide information about the Science and Humanities Department",
+          "Share details about the Science and Humanities Department",
+          "What's up with the Science and Humanities Department?",
+          "What can you tell me about Science and Humanities?",
+          "Give me the scoop on Science and Humanities",
+          "I'm curious about Science and Humanities"
+        ],
+        "responses": [
+          "The Department of Science and Humanities is a primal department which consists of Chemistry, Physics, Mathematics and English disciplines. All the disciplines in the department exist as a separate division and maintain individual identities. The varied disciplines provide the students with the knowledge of Mathematics, Physics, Chemistry, English and Environmental Science fundamentals. Developing moral behaviour among the students, utilizing human resources and coordinating academic responsibilities are the exclusive potentials of the department. The department accomplishes transforming young aspiring minds into determined freshman engineers through Outcome Based Education. Besides, the department teaches students a positive ethos through Value-Based Education. Dr. M.A. Neelakantan, Professor & Head, who has academic excellence and research experience for 38 years, leads the department with 30 highly qualified, experienced and goal-oriented members with specializations in various fields."
+        ]
+      },
+      {
+        "tag": "Science and Humanities_department_vision",
+        "patterns": [
+          "What is the vision of the Science and Humanities Department?",
+          "What's the vision for Science and Humanities?",
+          "What does the Science and Humanities Department aspire to?",
+          "What are the goals of Science and Humanities?"
+        ],
+        "responses": [
+          "Producing potentially competent freshman engineers with leadership qualities and human values."
+        ]
+      },
+      {
+        "tag": "Science and Humanities_mission",
+        "patterns": [
+          "What is the mission of the Science and Humanities Department?",
+          "What's the mission for Science and Humanities?",
+          "What does the Science and Humanities Department aim to achieve?",
+          "What is Science and Humanities striving for?"
+        ],
+        "responses": [
+          "To impart engineering fundamentals by providing Basic Science and Mathematics. To stimulate reading, listening and writing skills. To promote innovative culture among the students."
+        ]
+      },
+      {
+        "tag": "Science and Humanities_phd",
+        "patterns": [
+          "Tell me about the PhD program in Science and Humanities",
+          "What's the story with the PhD program in Science and Humanities?",
+          "Give me the details on Science and Humanities PhD program"
+        ],
+        "responses": [
+          "Chemistry Supervisors: 5. Physics Supervisors: 2. Mathematics Supervisors: 1. Full-time Scholars: 4. Part-time Scholars: 2. Awarded: 15"
+        ]
+      },
+      {
+        "tag": "Science and Humanities_hod",
+        "patterns": [
+          "Who is the Head of the Science and humanities Department?",
+          "Hod of Science & Humanities Dept",
+          "Hod S&H",
+          "Who leads Science and humanities?"
+        ],
+        "responses": [
+          "Dr.M.A.Neelakantan Professor & Head"
+        ]
+      },
+      {
+        "tag": "S&H_department_faculty",
+        "patterns": [
+          "Tell me about the faculty in the Science and Humanities Department",
+          "Who teaches in Science and Humanities?",
+          "Give me the rundown on Science and Humanities faculty",
+          "What's the deal with Science and Humanities faculty?"
+        ],
+        "responses": [
+          "Dr.M.A.Neelakantan - Professor & Head. Chemistry: Dr.S.Thalamuthu -Associate Professor. Dr.S.Chithirai Kumar - Assistant Professor(SG). Dr.E.Ramachandran - Assistant Professor(SG). Dr.B.Annaraj - Assistant Professor (SG). Mr.J.Thamba - Assistant Professor. Dr.B.Rajkumar - Assistant Professor. English: Ms.S.Gopiga Devi - Assistant Professor. Dr. K. Muthulakshmi - Assistant Professor. Mr.A.Muthusamy - Assistant Professor. Mr.T.Sivakumar - Assistant Professor. Dr.SathishBalakumaran S.N.I.- Assistant Professor. Ms.C.Dhanshree - Assistant Professor. Dr.K.Latha - Assistant Professor. Mathematics: Dr.S.Rammurthy- Professor. Dr.M.A.Perumal - Associative Professor. Ms.S.Geetha - Assistant Professor(SG). Ms.M.Annapoopathi - Assistant Professor(SG). Ms. S. Sasireka- Assistant Professor. Mr.M.Arul - Assistant Professor. Ms.S.S.BashithaParveen - Assistant Professor. Ms.P.Mala - Assistant Professor. Mr. N.Sivanandhan - Assistant Professor. Mr.S.Sivabalan - Assistant Professor. Ms.L.Meenatchi - Assistant Professor. Mr.P.Ganapathy - Assistant Professor. Ms.R.Premalatha - Assistant Professor. Ms.P.Dharani - Assistant Professor. Ms.B.Malathi - Assistant Professor. Ms.T. Kalaiselvi - Assistant Professor. Physics: Dr.A.Nichelson - Assistant Professor(SG). Dr.A.Panimayavalan Rakkini - Assistant Professor(SG). Dr.V.RamaSubbu - Assistant Professor. Dr.V.RamaSubbu - Assistant Professor. Dr.M.Prabhu - Assistant Professor. Dr.M.Aravind - Assistant Professor. Tamil: Dr.S.Chithra - Assistant Professor. Soft Skill Trainer: Ms.S.Jeba - Soft Skill Trainer"
+        ]
+      },
+      {
+        "tag": "college_info",
+        "patterns": [
+          "college information",
+          "info about college",
+          "college details",
+          "details about college"
+        ],
+        "responses": [
+          "National Engineering College is located in K.R.Nagar Kovilpatti, Nallatinputhur, Tamil Nadu 628503. It is accredited by NBA, NIRF, ARIIA, and AICTE."
+        ]
+      },
+      {
+        "tag": "address",
+        "patterns": [
+          "address of college",
+          "college address",
+          "address"
+        ],
+        "responses": [
+          "K.R.Nagar, Kovilpatti, Nallatinputhur, Tamil Nadu 628503"
+        ]
+      },
+      {
+        "tag": "placement_dean",
+        "patterns": [
+          "who is placement dean",
+          "placement dean name",
+          "name of the placement dean",
+          "placement dean"
+        ],
+        "responses": [
+          "The Placement dean of the college is Dr.K.G.Srinivasagan."
+        ]
+      },
+      {
+        "tag": "placement_convener",
+        "patterns": [
+          "placement convener",
+          "name of the placement convener",
+          "who is placement convener"
+        ],
+        "responses": [
+          "The Placement convener is Dr.V.Manimaran."
+        ]
+      },
+      {
+        "tag": "recruiters",
+        "patterns": [
+          "recruiters",
+          "recruiters name",
+          "count of the recruiters",
+          "count of recruiters coming to college every year"
+        ],
+        "responses": [
+          "The total no.of.recruiters coming to our campus are 100+. There are: Zoho, TATA, Coginizant, Wipro, Infosys, Accenture, IBM, Infoview, Solartis, HCL, Hexware, Atos, TechMahindra, Tessolve, AstraZeneca, Cadence, Vuram, Jilaba, Comcast, VVDN, Smackcoders, American Megatrends, Centizen, and Pinnacle infotech."
+        ]
+      },
+      {
+        "tag": "vision_mission",
+        "patterns": [
+          "vision",
+          "college vision",
+          "Nec vision",
+          "vision of nec",
+          "mission",
+          "college mission",
+          "Nec mission",
+          "mission of nec"
+        ],
+        "responses": [
+          "Vision: Transforming lives through quality education and research with human values.",
+          "Mission: To maintain excellent infrastructure and highly qualified and dedicated faculty. To provide a conducive environment with an ambiance of humanity, wisdom, creativity, and team spirit. To promote the values of ethical behavior and commitment to society. To partner with academic, industrial, and government entities to attain collaborative research."
+        ]
+      },
+      {
+        "tag": "academics",
+        "patterns": [
+          "academics",
+          "about academics",
+          "academics of nec",
+          "about academics of nec"
+        ],
+        "responses": [
+          "The office of the Dean (Academic) was established in the year 2010 to administer all academic activities of the Institution. Academic Dean is responsible for all academic matters pertaining to U.G. and P.G.programmes offered by the Institute. This office revises the U.G. and P.G. Regulations, curriculum and syllabus of all branches of Engineering, Technology & Science and Humanities as per the guidelines of UGC, AICTE and Anna University, Chennai."
+        ]
+      },
+      {
+        "tag": "members_of_academics",
+        "patterns": [
+          "members of the academics",
+          "who are the members of the academics"
+        ],
+        "responses": [
+          "1. Dr. A. Shenbagavalli - Dean (Academic)",
+          "2. Dr. K. Mohaideen Pitchai - Professor / CSE",
+          "3. Dr. F. Micheal Thomas Rex - Associate Professor / Mech",
+          "4. Ms. R. Chermasakthi - Assistant"
+        ]
+      },
+      {
+        "tag": "dean_of_academics",
+        "patterns": [
+          "dean of the academics",
+          "who is the dean of the academics",
+          "dean academic"
+        ],
+        "responses": [
+          "Dr. A. Shenbagavalli Dean (Academic)"
+        ]
+      },
+      {
+        "tag": "nba_accreditation",
+        "patterns": [
+          "NBA Accreditation",
+          "NBA",
+          "NBA Accreditation Status",
+          "Accreditation",
+          "Can you provide information about the NBA Accreditation",
+          "Share details about the NBA Accreditation"
+        ],
+        "responses": [
+          "1. B.E. Mechanical Engineering - Accredited by NBA Tier I",
+          "2. B.E. Electronics and Communication Engineering - Accredited by NBA Tier I",
+          "3. B.E. Computer Science and Engineering - Accredited by NBA Tier I",
+          "4. B.E. Electrical and Electronics Engineering - Accredited by NBA Tier I",
+          "5. B.Tech. Information Technology - Accredited by NBA Tier I"
+        ]
+      },
+      {
+        "tag": "mech_nba_accreditation",
+        "patterns": [
+          "NBA Accreditation of MECH",
+          "NBA status of MECH",
+          "What is the NBA Accreditation of Mechanical Engineering Department",
+          "What is the NBA Accreditation of Mechanical Engineering",
+          "Can you provide information about the NBA Accreditation of MECH",
+          "Share details about the NBA Accreditation MECH Dept"
+        ],
+        "responses": [
+          "B.E. Mechanical Engineering - Accredited by NBA Tier I"
+        ]
+      },
+  {
+      "tag": "ECE_NBA_Accreditation",
+      "patterns": [
+          "What is the NBA Accreditation of ECE",
+          "NBA Accreditation of ECE",
+          "NBA status of ECE",
+          "What is the NBA Accreditation of Electronics and Communication Engineering Department",
+          "What is the NBA Accreditation of Electronics and Communication Engineering",
+          "Can you provide information about the NBA Accreditation of ECE",
+          "Share details about the NBA Accreditation ECE Dept"
+      ],
+      "responses": [
+          "Electronics and Communication Engineering - Accredited by NBA Tier I"
+      ]
+  },
+  {
+      "tag": "CSE_NBA_Accreditation",
+      "patterns": [
+          "What is the NBA Accreditation of CSE",
+          "NBA Accreditation of CSE",
+          "NBA status of CSE",
+          "What is the NBA Accreditation of Computer Science and Engineering Department",
+          "What is the NBA Accreditation of Computer Science and Engineering",
+          "Can you provide information about the NBA Accreditation of CSE",
+          "Share details about the NBA Accreditation CSE Dept"
+      ],
+      "responses": [
+          "B.E. Computer Science and Engineering - Accredited by NBA Tier I"
+      ]
+  },
+  {
+      "tag": "EEE_NBA_Accreditation",
+      "patterns": [
+          "What is the NBA Accreditation of EEE",
+          "NBA Accreditation of EEE",
+          "NBA status of EEE",
+          "What is the NBA Accreditation of Electrical and Electronics Engineering Department",
+          "What is the NBA Accreditation of Electrical and Electronics Engineering",
+          "Can you provide information about the NBA Accreditation of EEE",
+          "Share details about the NBA Accreditation EEE Dept"
+      ],
+      "responses": [
+          "B.E. Electrical and Electronics Engineering - Accredited by NBA Tier I"
+      ]
+  },
+  {
+      "tag": "IT_NBA_Accreditation",
+      "patterns": [
+          "What is the NBA Accreditation of IT",
+          "NBA Accreditation of IT",
+          "NBA status of IT",
+          "What is the NBA Accreditation of Information Technology Department",
+          "What is the NBA Accreditation of Information Technology",
+          "Can you provide information about the NBA Accreditation of IT",
+          "Share details about the NBA Accreditation IT Dept"
+      ],
+      "responses": [
+          "B.Tech. Information Technology - Accredited by NBA Tier I"
+      ]
+  },
+  {
+      "tag": "Civil_NBA_Accreditation",
+      "patterns": [
+          "What is the NBA Accreditation of civil",
+          "NBA Accreditation of civil",
+          "NBA status of civil",
+          "What is the NBA Accreditation of Civil Engineering Department",
+          "What is the NBA Accreditation of Civil Engineering",
+          "Can you provide information about the NBA Accreditation of Civil",
+          "Share details about the NBA Accreditation Civil Dept"
+      ],
+      "responses": [
+          "There is no NBA accreditation for Civil Engineering department."
+      ]
+  },
+  {
+      "tag": "AI&DS_NBA_Accreditation",
+      "patterns": [
+          "What is the NBA Accreditation of AI & DS",
+          "NBA Accreditation of AIDS",
+          "NBA status of AIDS",
+          "What is the NBA Accreditation of Artificial and data science Department",
+          "What is the NBA Accreditation of Artificial and data science",
+          "Can you provide information about the NBA Accreditation of AI & DS",
+          "Share details about the NBA Accreditation AIDS Dept"
+      ],
+      "responses": [
+          "There is no NBA accreditation for Artificial and data science department."
+      ]
+  },
+  {
+      "tag": "Science and Humanities_NBA_Accreditation",
+      "patterns": [
+          "What is the NBA Accreditation of S&H",
+          "NBA Accreditation of S&H",
+          "NBA status of S&H",
+          "What is the NBA Accreditation of Science and Humanities Department",
+          "What is the NBA Accreditation ofScience and Humanities",
+          "Can you provide information about the NBA Accreditation of S&H",
+          "Share details about the NBA Accreditation S&H Dept"
+      ],
+      "responses": [
+          "There is no NBA accreditation for Science and Humanities department."
+      ]
+  },
+  {
+    "tag": "CSE_department_info",
+    "patterns": [
+      "CSE dept",
+      "Tell me about the Computer Science and Engineering Department",
+      "Tell me about the CSE Department",
+      "CSE Department",
+      "Computer Science and Engineering Department",
+      "Can you provide information about the Computer Science and Engineering Department",
+      "Share details about the Computer Science and Engineering Department"
+    ],
+    "responses": [
+      "Our CSE department was established in the year 1984 and offers a conducive learning and research environment with the aim of transforming the lifestyle of rural students with quality education and higher-level career settlement. We have dedicated and quality faculty members with well-maintained state-of-the-art academic and research laboratories. To enlighten their knowledge our curriculum is periodically upgraded with emerging trends to bridge the industrial gaps. Our department has well-established In-house incubation centers to inculcate the industrial practices at their accessibility well in advance. Students excel themselves in International and National level competitions, hackathons to groom their soft skills with the care and affection of our mentors. We are thankful for our stakeholders (Alumni, Parents, Academic & Industrial experts) who are guiding and shaping us towards excellence."
+    ]
+  },
+  {
+    "tag": "CSE_department_vision_mission",
+    "patterns": [
+      "vision of the Computer Science and Engineering Department",
+      "mission of the CSE Engineering Department",
+      "cse vision mission"
+    ],
+    "responses": [
+      "Vision: To produce globally competent, innovative and socially responsible computing professionals , Mission: To provide world-class teaching-learning and research facilities. To stimulate students’ logical thinking, creativity, and communication skills effectively. To cultivate awareness about emerging trends through self-initiative. To instill a sense of societal and ethical responsibilities. To collaborate with industries and government organizations."
+    ]
+  },
+  {
+    "tag": "CSE_department_programs",
+    "patterns": [
+      "undergraduate program in Computer Science and Engineering",
+      "postgraduate program in Computer Science and Engineering",
+      "PhD program in Computer Science and Engineering"
+    ],
+    "responses": [
+      "Undergraduate Program: Year of Establishment - 1984, Student Strength - 389, Postgraduate Program: Year of Establishment - 2002, Student Strength - 17, PhD Program: Year of Establishment - 2006, Scholars - Full time: 1, Part-time: 12, Awarded: 31 (since 2010)"
+    ]
+  },
+  {
+    "tag": "CSE_department_hod",
+    "patterns": [
+      "Head of the Computer Science and Engineering Department",
+      "Hod of CSE Dept",
+      "Hod CSE"
+    ],
+    "responses": [
+      "Dr. V. Gomathi Professor & Head"
+    ]
+  },
+  {
+    "tag": "CSE_department_faculty",
+    "patterns": [
+      "faculty in CSE Department",
+      "faculty in Computer Science and Engineering Department",
+      "faculty list for CSE Department",
+      "CSE faculty",
+      "CSE Department faculty"
+    ],
+    "responses": [
+      "1. Dr. V. Gomathi - Professor and Head, 2. Dr. D. Manimegalai - Professor, 3. Dr. K. Mohaideen Pitchai - Professor, 4. Dr. S. Kalaiselvi - Associate Professor, 5. Dr. J. Naskath - Assistant Professor(SG), 6. Ms. R. Rajakumari - Assistant Professor(SG), 7. Mr. D. Vijayakumar - Assistant Professor(SG), 8. Dr. G. Sivakama Sundari - Assistant Professor(SG), 9. Ms. B. Shanmugapriya - Assistant Professor(SG), 10. Mr. S. Dheenathayalan - Assistant Professor(SG)"
+    ]
+  },
+  {
+    "tag": "ECE_department_info",
+    "patterns": [
+      "ECE dept",
+      "Tell me about the Electronics and Communication Engineering Department",
+      "Tell me about the ECE Department",
+      "ECE Department",
+      "Electronics and Communication Engineering Department",
+      "Can you provide information about the Electronics and Communication Engineering Department",
+      "Share details about the ECE Department"
+    ],
+    "responses": [
+      "The department of Electronics and Communication Engineering has been continuously striving to provide excellent Engineering Education in the field of electronics and communication since 1984. It offers one undergraduate programme B.E. in Electronics and Communication Engineering (ECE) and one postgraduate programme M.E. in Embedded System Technologies. National Board of Accreditation (NBA), New Delhi has provisionally accredited the Under Graduate Programme of the ECE department under Tier – 1 category. Anna University Chennai has recognized the department as a research centre."
+    ]
+  },
+  {
+      "tag": "ECE_department_vision",
+      "patterns": [
+          "What is the vision of the Electronics and Communication Engineering Department?"
+      ],
+      "responses": [
+          "To produce Electronics and Communication Engineers capable of generating a knowledge economy with social responsibility."
+      ]
+  },
+  {
+      "tag": "ECE_department_mission",
+      "patterns": [
+          "What is the mission of the Electronics and Communication Engineering Department?"
+      ],
+      "responses": [
+          "To impart high-quality education with ethical behaviour,To equip the students compatible with recent trends in Electronic industries.To develop leadership qualities with humanity, wisdom, creativity and team spirit.To provide a passionate environment for continual learning."
+      ]
+  },
+  {
+      "tag": "ECE_department_ug",
+      "patterns": [
+          "Tell me about the undergraduate program in Electronics and Communication Engineering"
+      ],
+      "responses": [
+          "Year of Establishment:1984, Student Strength:120 from 2006"
+      ]
+  },
+  {
+      "tag": "ECE_department_pg",
+      "patterns": [
+          "Tell me about the postgraduate program in Electronics and Communication Engineering"
+      ],
+      "responses": [
+          "Year of Establishment:2011 , Student Strength:18 from 2012, 12 from 2022."
+      ]
+  },
+  {
+      "tag": "ECE_department_phd",
+      "patterns": [
+          "Tell me about the PhD program in Electronics and Communication Engineering"
+      ],
+      "responses": [
+          "Year of Establishment:2011",
+          "scholars:",
+          "Full time:3",
+          "Part time:19",
+          "Awarded:26(Since 2013)"
+      ]
+  },
+  {
+      "tag": "ECE_department_hod",
+      "patterns": [
+          "Who is the Head of the Electronics and Communication Engineering Department?",
+          "Hod of ECE Dept",
+          "Hod ECE"
+      ],
+      "responses": [
+          "Dr. S. Tamilselvi Professor & Head"
+      ]
+  },
+  {
+    "tag": "ECE_department_faculty",
+    "patterns": [
+      "faculty in ECE Department",
+      "faculty in Electronics and Communication Engineering Department",
+      "faculty list for ECE Department",
+      "ECE faculty",
+      "ECE Department faculty"
+    ],
+    "responses": [
+      "1. Dr. S. Tamilselvi - Professor and Head, 2. Dr. A. Shenbagavalli - Professor, 3. Dr. T. S. Arun Samuel - Professor, 4. Dr. N. Arumugam - Associate Professor, 5. Dr. V. Suresh - Associate Professor, 6. Dr. K. J. Prasanna Venkatesan - Associate Professor, 7. Dr. C. Balamurugan - Associate Professor, 8. Dr. A. Saravana Selvan - Associate Professor, 9. Mr. T. Devakumar - Assistant Professor(SG), 10. Mr. S. Cammillus - Assistant Professor(SG), 11. Mr. K. Subramanian - Assistant Professor(SG), 12. Dr. R. Manjula Devi - Assistant Professor(SG), 13. Mr. M. Sathish Kumar - Assistant Professor(SG), 14. Mr. B. Ganapathy Ram - Assistant Professor(SG), 15. Dr. I. Vivek Anand - Assistant Professor(SG), 16. Ms. S. Karthika - Assistant Professor, 17. Ms. J. E. Jeyanthi - Assistant Professor, 18. Ms. S. Malathi - Assistant Professor, 19. Ms. C. Kalieswari - Assistant Professor, 20. Dr. I. Paulkani - Assistant Professor, 21. Ms. A. Apsara - Assistant Professor, 22. Ms. P. Arishenbagam - Assistant Professor, 23. Ms. C. Lakshmi - Assistant Professor, 24. Dr. S. Lavanya - Assistant Professor, 25. Ms. R. Geeta - Assistant Professor, 26. Mrs. S. Sulochana - Assistant Professor, 27. Ms. S. Sindhana - Assistant Professor, 28. Ms. C. K. Balasundari - Assistant Professor"
+    ]
+  },
+  {
+    "tag": "EEE_department",
+    "patterns": [
+      "EEE dept",
+      "Electrical and Electronics Engineering Department",
+      "EEE Department",
+      "Tell me about the Electrical and Electronics Engineering Department",
+      "Can you provide information about the EEE Department"
+    ],
+    "responses": [
+      "The department of Electrical and Electronics Engineering was established in 1994 with an initial intake of 40 students, which was later increased to 60. The B.E. program received accreditation from NBA for 3 years in July 2006, and re-accreditation for another 3 years in September 2011. In 2014, it was accredited by NBA Tier 1 (Washington Accord) for 2 years, and the accreditation was extended up to 2023. Currently, the B.E. program is provisionally re-accredited for 3 years starting from 2023. Additionally, the department offers M.E. in High Voltage Engineering since 2005, making it the only affiliated college under Anna University, Chennai offering this specialization. Dr. M. Willjuice Iruthayarajan, M.E., Ph.D., serves as the Professor & Head, bringing 24 years of academic and research experience to efficiently lead the department, which is supported by 15 staff members."
+    ]
+  },  
+  {
+      "tag": "EEE_department_vision",
+      "patterns": [
+          "What is the vision of the Electrical and Electronics Engineering Department?"
+      ],
+      "responses": [
+          "Promoting active learning, critical thinking coupled with ethical values to meet the global challenges."
+      ]
+  },
+  {
+      "tag": "EEE_department_mission",
+      "patterns": [
+          "What is the mission of the Electrical and Electronics Engineering Department?"
+      ],
+      "responses": [
+          "To instill state-of-the-art technical knowledge and research capability that will prepare our graduates for professionalism and lifelong learning.To update knowledge to inculcate social and ethical values.To meet industrial and real-world challenges."
+      ]
+  },
+  {
+      "tag": "EEE_department_ug",
+      "patterns": [
+          "Tell me about the undergraduate program in Electrical and Electronics Engineering"
+      ],
+      "responses": [
+          "Year of Establishment:1994, Student Strength:60"
+      ]
+  },
+  {
+      "tag": "EEE_department_pg",
+      "patterns": [
+          "Tell me about the postgraduate program in Electrical and Electronics Engineering"
+      ],
+      "responses": [
+          "Year of Establishment:2005 , Student Strength:06"
+      ]
+  },
+  {
+      "tag": "EEE_department_phd",
+      "patterns": [
+          "Tell me about the PhD program in Electrical and Electronics Engineering"
+      ],
+      "responses": [
+          "Year of Establishment:2010 scholars: Full time:01 Part time:18 Awarded:24"
+      ]
+  },
+  {
+      "tag": "EEE_department_hod",
+      "patterns": [
+          "Who is the Head of the Electrical and Electronics Department?",
+          "Hod of EEE Dept",
+          "Hod EEE"
+      ],
+      "responses": [
+          "Dr. M. Willjuice Iruthayarajan Professor & Head"
+      ]
+  },
+  {
+    "tag": "EEE_department_faculty",
+    "patterns": [
+      "faculty in the Electrical and Electronics Engineering Department"
+    ],
+    "responses": ["1. Dr. M. Willjuice Iruthayarajan - Professor and Head, 2. Dr. L. Kalaivani - Professor, 3. Dr. R. V. Maheswari - Professor, 4. Dr. N. B. Prakash - Professor, 5. Dr. S. Sankarakumar - Assistant Professor(SG), 6. Dr. B. Vigneshwaran - Assistant Professor(SG), 7. Mr. B. Venkatasamy - Assistant Professor(SG), 8. Dr. M. Gengaraj - Assistant Professor(SG), 9. Mr. P. Samuel Pakianthan - Assistant Professor, 10. Mr. M. Sivapalanirajan - Assistant Professor"]
+  },
+  {
+    "tag": "recruitment",
+    "patterns": [
+      "Procedure for staff/faculty recruitment",
+      "How are professors recruited at NEC",
+      "NEC recruitment process",
+      "Faculty recruitment"
+    ],
+    "responses": ["Instructions, Advertisement, Application Form Download, Form Filling, Upload, Inquiries: facultyportal@nec.edu.in, Principal's Office, Website: https://nec.edu.in/faculty-recruitment/"]
+  },
+  {
+    "tag": "industries",
+    "patterns": [
+      "Industries in NEC",
+      "Companies in NEC",
+      "nec industries",
+      "Technobation Centres in NEC",
+      "NEC Technobation Centre"
+    ],
+    "responses": ["NEC - MISTRAL TECHNOBATION CENTER, NEC - BRIMMA TECHNOBATION CENTER, NEC - VLINDER TECHNOBATION CENTER"]
+  },
+  {
+    "tag": "hostel",
+    "patterns": [
+      "Number of hostels in NEC",
+      "Rooms in hostel",
+      "hostel rooms"
+    ],
+    "responses": ["Gents Hostel 1 - 159 rooms, Gents Hostel 2 - 324 rooms, Ladies Hostel - 251 rooms"]
+  },
+  {
+    "tag": "hostel-facilities",
+    "patterns": [
+      "Hostel facilities",
+      "Facilities available in the hostel",
+      "Wifi in hostel",
+      "nec hostel facilities",
+      "facilities in hostel",
+      "available hostel facilities"
+    ],
+    "responses": [
+      "Uninterrupted power supply, separate Generator for Students, Medical facility with free medicines for sick students Mineral water provided to all rooms , Sweets and Juice center available after college hours ,Free Computer Lab facilities after class hours, 24-hour WiFi facility ,Banking facility with ATM ,Modern dining hall serving nutritious food, Well-equipped fitness center, Stationery store, Modern kitchen with oven and solar steam cooking plant, EPABX system and Telephone facility, Fully equipped individual / 3 shared rooms"
+    ]
+  },
+  {
+    "tag": "chapters",
+    "patterns": [
+      "NEC chapters",
+      "List of chapters in NEC",
+      "Chapters in NEC"
+    ],
+    "responses": [
+      "IEEE Student’s Chapter,IEEE Computer Society Student’s Chapter,IE(I) Student’s Chapter, IE(I) Staff Chapter, Computer Society Of India Chapter, IETE Students’ Forum, ISTE Student’s Chapter, ISTE Staff Chapter, ISHRAE Student’s Chapter, Society For Manufacturing Engineers, Society Of Automotive Engineers – Student’s Chapter, CISCO Networking Academy, Red Hat Academy, MISTRAL Academy, ICT Academy, Matlab Forum"
+    ]
+  },
+  {
+    "tag": "K.R.Innovation Centre",
+    "patterns": [
+      "Details of K.R.Innovation Centre",
+      "About K.R.Innovation Centre",
+      "K.R.Innovation Centre",
+      "KR Innovation Centre",
+      "K R innovation centre"
+    ],
+    "responses": [
+      "National Engineering college is Recognized as host institute/ Business Incubator by Ministry of MSME, New Delhi. The ministy has supported Rs. 35 lakhs for the development of 6 products. K. R. Innovation Centre(KRIC) a section8 company acting as a special purpose vehicle for our institute is established in 2018 for taking care of business incubation activities. NEC and KRIC inculcates Innovation & Startup culture inside and outside the campus to enhance Socio-economic status and reputation of southern Tamilnadu. 2 Unicorns, 15 Incubated Startups, 50 Employement Generated, 100 Internships Offered, 2000000 rupees Seed Fund Disbursed, 3 Cohorts"
+    ]
+  },
+  {
+    "tag": "K.R.Innovation Centre team",
+    "patterns": [
+      "Team members of K.R.Innovation Centre",
+      "Head of K.R.Innovation Centre",
+      "K.R.Innovation Centre members",
+      "Members of KR innovation centre"
+    ],
+    "responses": [
+      "Dr. K. Manisekar - Dean Innovation & Entrepreneurship. Dr. G. Vinoth - Chief Executive Officer. Mr. A. Srinivasan - DGM Finance. Mr. B. Ganapathy Ram - Technical Lead (Hardware: IOT). Dr. T. Sakthi - Convenor IIC. Mr. Y. Jerold Jaikins - Software Engineer"
+    ]
+  },
+  {
+    "tag": "CSE_department_info",
+    "patterns": [
+      "CSE dept",
+      "Tell me about the Computer Science and Engineering Department",
+      "Tell me about the CSE Department",
+      "CSE Department",
+      "Computer Science and Engineering Department",
+      "About cse dep"
+    ],
+    "responses": [
+      "Our CSE department was established in the year 1984 and offers a conducive learning and research environment with the aim of transforming the lifestyle of rural students with quality education and higher-level career settlement. We have dedicated and quality faculty members with well-maintained state-of-the-art academic and research laboratories. To enlighten their knowledge our curriculum is periodically upgraded with emerging trends to bridge the industrial gaps. Our department has well-established In-house incubation centers to inculcate the industrial practices at their accessibility well in advance. Students excel themselves in International and National level competitions, hackathons to groom their soft skills with the care and affection of our mentors. We are thankful for our stakeholders (Alumni, Parents, Academic & Industrial experts) who are guiding and shaping us towards excellence."
+    ]
+  },
+  {
+    "tag": "CSE_department_vision_mission",
+    "patterns": [
+      "vision of the Computer Science and Engineering Department",
+      "mission of the CSE Engineering Department",
+      "cse vision mission","CSE Mission","Mission cse","cse vision","vision mission of cse"
+    ],
+    "responses": [
+      "Vision: To produce globally competent, innovative and socially responsible computing professionals , Mission: To provide world-class teaching-learning and research facilities. To stimulate students’ logical thinking, creativity, and communication skills effectively. To cultivate awareness about emerging trends through self-initiative. To instill a sense of societal and ethical responsibilities. To collaborate with industries and government organizations."
+    ]
+  },
+  {
+    "tag": "CSE_department_programs",
+    "patterns": [
+      "undergraduate program in Computer Science and Engineering","Undergradute program of CSE dep", "UG program of CSE dep","CSE dep UG program",
+      "postgraduate program in Computer Science and Engineering","Postgraduate program of CSE dep", "PG program of CSE dep","CSE dep PG program",
+      "PhD program in Computer Science and Engineering","PhD program of CSE dep","CSE dep PhD program"
+    ],
+    "responses": [
+      "Undergraduate Program: Year of Establishment - 1984, Student Strength - 389, Postgraduate Program: Year of Establishment - 2002, Student Strength - 17, PhD Program: Year of Establishment - 2006, Scholars - Full time: 1, Part-time: 12, Awarded: 31 (since 2010)"
+    ]
+  },
+  {
+    "tag": "CSE_department_hod",
+    "patterns": [
+      "Head of the Computer Science and Engineering Department",
+      "Hod of CSE Dept",
+      "Hod CSE","CSE HOD"
+    ],
+    "responses": [
+      "Dr. V. Gomathi Professor & Head"
+    ]
+  },
+  {
+    "tag": "CSE_department_faculty",
+    "patterns": [
+      "faculty in CSE Department",
+      "faculty in Computer Science and Engineering Department",
+      "faculty list for CSE Department",
+      "CSE faculty",
+      "CSE Department faculty"
+    ],
+    "responses": [
+      "1. Dr. V. Gomathi - Professor and Head, 2. Dr. D. Manimegalai - Professor, 3. Dr. K. Mohaideen Pitchai - Professor, 4. Dr. S. Kalaiselvi - Associate Professor, 5. Dr. J. Naskath - Assistant Professor(SG), 6. Ms. R. Rajakumari - Assistant Professor(SG), 7. Mr. D. Vijayakumar - Assistant Professor(SG), 8. Dr. G. Sivakama Sundari - Assistant Professor(SG), 9. Ms. B. Shanmugapriya - Assistant Professor(SG), 10. Mr. S. Dheenathayalan - Assistant Professor(SG)"
+    ]
+  },
+  {
+    "tag": "ECE_department_info",
+    "patterns": [
+      "ECE dept",
+      "Tell me about the Electronics and Communication Engineering Department",
+      "Tell me about the ECE Department",
+      "ECE Department",
+      "About ece"
+    ],
+    "responses": [
+      "The department of Electronics and Communication Engineering has been continuously striving to provide excellent Engineering Education in the field of electronics and communication since 1984. It offers one undergraduate programme B.E. in Electronics and Communication Engineering (ECE) and one postgraduate programme M.E. in Embedded System Technologies. National Board of Accreditation (NBA), New Delhi has provisionally accredited the Under Graduate Programme of the ECE department under Tier – 1 category. Anna University Chennai has recognized the department as a research centre."
+    ]
+  },
+  {
+      "tag": "ECE_department_vision",
+      "patterns": [
+          "What is the vision of the Electronics and Communication Engineering Department?","vision of ece","ece vision"
+      ],
+      "responses": [
+          "To produce Electronics and Communication Engineers capable of generating a knowledge economy with social responsibility."
+      ]
+  },
+  {
+      "tag": "ECE_department_mission",
+      "patterns": [
+          "What is the mission of the Electronics and Communication Engineering Department?","mission of ece","ece mission"
+      ],
+      "responses": [
+          "To impart high-quality education with ethical behaviour,To equip the students compatible with recent trends in Electronic industries.To develop leadership qualities with humanity, wisdom, creativity and team spirit.To provide a passionate environment for continual learning."
+      ]
+  },
+  {
+      "tag": "ECE_department_ug",
+      "patterns": [
+          "Tell me about the undergraduate program in Electronics and Communication Engineering","Undergradute program of ECE dep", "UG program of ECE dep","ece dep UG program"
+      ],
+      "responses": [
+          "Year of Establishment:1984, Student Strength:120 from 2006"
+      ]
+  },
+  {
+      "tag": "ECE_department_pg",
+      "patterns": [
+          "Tell me about the postgraduate program in Electronics and Communication Engineering","Postgradute program of ECE dep", "PG program of ECE dep","ECE dep PG program"
+      ],
+      "responses": [
+          "Year of Establishment:2011 , Student Strength:18 from 2012, 12 from 2022."
+      ]
+  },
+  {
+      "tag": "ECE_department_phd",
+      "patterns": [
+          "Tell me about the PhD program in Electronics and Communication Engineering","PhD program of ECE dep", "PhD program of ECE dep","ECE dep PhD program"
+      ],
+      "responses": [
+          "Year of Establishment:2011",
+          "scholars:",
+          "Full time:3",
+          "Part time:19",
+          "Awarded:26(Since 2013)"
+      ]
+  },
+  {
+      "tag": "ECE_department_hod",
+      "patterns": [
+          "Who is the Head of the Electronics and Communication Engineering Department?",
+          "Hod of ECE Dept",
+          "Hod ECE","ECE hod"
+      ],
+      "responses": [
+          "Dr. S. Tamilselvi Professor & Head"
+      ]
+  },
+  {
+    "tag": "ECE_department_faculty",
+    "patterns": [
+      "faculty in ECE Department",
+      "faculty in Electronics and Communication Engineering Department",
+      "faculty list for ECE Department",
+      "ECE faculty",
+      "ECE Department faculty"
+    ],
+    "responses": [
+      "1. Dr. S. Tamilselvi - Professor and Head, 2. Dr. A. Shenbagavalli - Professor, 3. Dr. T. S. Arun Samuel - Professor, 4. Dr. N. Arumugam - Associate Professor, 5. Dr. V. Suresh - Associate Professor, 6. Dr. K. J. Prasanna Venkatesan - Associate Professor, 7. Dr. C. Balamurugan - Associate Professor, 8. Dr. A. Saravana Selvan - Associate Professor, 9. Mr. T. Devakumar - Assistant Professor(SG), 10. Mr. S. Cammillus - Assistant Professor(SG), 11. Mr. K. Subramanian - Assistant Professor(SG), 12. Dr. R. Manjula Devi - Assistant Professor(SG), 13. Mr. M. Sathish Kumar - Assistant Professor(SG), 14. Mr. B. Ganapathy Ram - Assistant Professor(SG), 15. Dr. I. Vivek Anand - Assistant Professor(SG), 16. Ms. S. Karthika - Assistant Professor, 17. Ms. J. E. Jeyanthi - Assistant Professor, 18. Ms. S. Malathi - Assistant Professor, 19. Ms. C. Kalieswari - Assistant Professor, 20. Dr. I. Paulkani - Assistant Professor, 21. Ms. A. Apsara - Assistant Professor, 22. Ms. P. Arishenbagam - Assistant Professor, 23. Ms. C. Lakshmi - Assistant Professor, 24. Dr. S. Lavanya - Assistant Professor, 25. Ms. R. Geeta - Assistant Professor, 26. Mrs. S. Sulochana - Assistant Professor, 27. Ms. S. Sindhana - Assistant Professor, 28. Ms. C. K. Balasundari - Assistant Professor"
+    ]
+  },
+  {
+    "tag": "EEE_department",
+    "patterns": [
+      "EEE dept",
+      "Electrical and Electronics Engineering Department",
+      "EEE Department",
+      "About eee"
+    ],
+    "responses": [
+      "The department of Electrical and Electronics Engineering was established in 1994 with an initial intake of 40 students, which was later increased to 60. The B.E. program received accreditation from NBA for 3 years in July 2006, and re-accreditation for another 3 years in September 2011. In 2014, it was accredited by NBA Tier 1 (Washington Accord) for 2 years, and the accreditation was extended up to 2023. Currently, the B.E. program is provisionally re-accredited for 3 years starting from 2023. Additionally, the department offers M.E. in High Voltage Engineering since 2005, making it the only affiliated college under Anna University, Chennai offering this specialization. Dr. M. Willjuice Iruthayarajan, M.E., Ph.D., serves as the Professor & Head, bringing 24 years of academic and research experience to efficiently lead the department, which is supported by 15 staff members."
+    ]
+  },
+  {
+      "tag": "EEE_department_vision",
+      "patterns": [
+          "What is the vision of the Electrical and Electronics Engineering Department?","vision of ece","ece vision"
+      ],
+      "responses": [
+          "Promoting active learning, critical thinking coupled with ethical values to meet the global challenges."
+      ]
+  },
+  {
+      "tag": "EEE_department_mission",
+      "patterns": [
+          "What is the mission of the Electrical and Electronics Engineering Department?","mission of ece","ece mission"
+      ],
+      "responses": [
+          "To instill state-of-the-art technical knowledge and research capability that will prepare our graduates for professionalism and lifelong learning.To update knowledge to inculcate social and ethical values.To meet industrial and real-world challenges."
+      ]
+  },
+  {
+      "tag": "EEE_department_ug",
+      "patterns": [
+          "Tell me about the undergraduate program in Electrical and Electronics Engineering","Undergradute program of EEE dep", "UG program of EEE dep","EEE dep UG program"
+      ],
+      "responses": [
+          "Year of Establishment:1994, Student Strength:60"
+      ]
+  },
+  {
+      "tag": "EEE_department_pg",
+      "patterns": [
+          "Tell me about the postgraduate program in Electrical and Electronics Engineering","Postgradute program of EEE dep", "PG program of EEE dep","EEE dep PG program"
+      ],
+      "responses": [
+          "Year of Establishment:2005 , Student Strength:06"
+      ]
+  },
+  {
+      "tag": "EEE_department_phd",
+      "patterns": [
+          "Tell me about the PhD program in Electrical and Electronics Engineering", "PhD program of EEE dep","EEE dep PhD program"
+      ],
+      "responses": [
+          "Year of Establishment:2010 scholars: Full time:01 Part time:18 Awarded:24"
+      ]
+  },
+  {
+      "tag": "EEE_department_hod",
+      "patterns": [
+          "Who is the Head of the Electrical and Electronics Department?",
+          "Hod of EEE Dept",
+          "Hod EEE","EEE HOD"
+      ],
+      "responses": [
+          "Dr. M. Willjuice Iruthayarajan Professor & Head"
+      ]
+  },
+  {
+    "tag": "EEE_department_faculty",
+    "patterns": [
+      "faculty in the Electrical and Electronics Engineering Department","Faculty of eee","eee faculty"
+    ],
+    "responses": ["1. Dr. M. Willjuice Iruthayarajan - Professor and Head, 2. Dr. L. Kalaivani - Professor, 3. Dr. R. V. Maheswari - Professor, 4. Dr. N. B. Prakash - Professor, 5. Dr. S. Sankarakumar - Assistant Professor(SG), 6. Dr. B. Vigneshwaran - Assistant Professor(SG), 7. Mr. B. Venkatasamy - Assistant Professor(SG), 8. Dr. M. Gengaraj - Assistant Professor(SG), 9. Mr. P. Samuel Pakianthan - Assistant Professor, 10. Mr. M. Sivapalanirajan - Assistant Professor"]
+  },
+  {
+    "tag": "clubs",
+    "patterns": [
+      "What are the clubs available in nec?",
+      "clubs in NEC",
+      "extra curricular activities in NEC",
+      "extra curricular activities",
+      "club"
+    ],
+    "responses": [
+      "National Cadet Corps(NCC),National Service Scheme(NSS),Youth Welfare Club,Yoga,Youth Red Cross(YRC),Royal Red Cross(RRC),Eco Club,Rotract,Junior JCI,Reader's Park,Literary Club,Quiz Club,Fine and Arts"
+    ]
+  },
+  {
+    "tag": "NCC",
+    "patterns": [
+      "about NCC",
+      "NCC",
+      "about National Cadet Corps",
+      "National Cadet Corps"
+    ],
+    "responses": [
+      "The National Cadet Corps (NCC) is the youth wing of the Indian Armed Force with its headquarters in New Delhi, India.It is open to school and college students on a voluntary basis as a Tri-Services Organisation, comprising the Army, the Navy and the Air Force, engaged in developing the youth of the country into disciplined and patriotic citizens.The soldier youth foundation in India is a voluntary organization which recruits cadets from high schools, higher secondary, colleges and universities all over India.The cadets are given basic military training in small arms and drills."
+    ]
+  },
+  {
+    "tag": "NCC_vision",
+    "patterns": ["What is the vision of the National Cadet corps?"],
+    "responses": ["Empower the youth to be a responsible citizen of the country with leadership skills to take up their career in the armed forces"]
+  },
+  {
+    "tag": "NCC_Motto",
+    "patterns": ["What is the motto of the National Cadet corps?"],
+    "responses": ["Unity and discipline"]
+  },
+  {
+    "tag": "NCC_Mission",
+    "patterns": ["What is the mission of the National Cadet corps?"],
+    "responses": [
+      "To provide a suitable environment to motivate the youth to take up a career in the armed force.",
+      "To develop character, comradeship, discipline, leadership, secular outlook, spirit of adventure and ideals of selfless service amongst the youth of the country."
+    ]
+  },
+  {
+    "tag": "NCC_volunteers",
+    "patterns": ["No.of student volunteers in National Cadet corps"],
+    "responses": ["100 cadets"]
+  },
+  {
+    "tag": "NCC_Duration of Membership",
+    "patterns": ["Duration of Membership in National Cadet corps"],
+    "responses": ["3 years"]
+  },
+  {
+    "tag": "NCC_President",
+    "patterns": ["who is the president of  National Cadet corps?"],
+    "responses": ["CUO.P.Akshaya, EEE"]
+  },
+  {
+    "tag": "NCC_Faculty_Coordinators",
+    "patterns": ["who is the Faculty Coordinators of  National Cadet corps?"],
+    "responses": ["Captain. Dr.N.B.Prakash Coy Commander 9(TN) Sig. Coy. NCC, Tirunelveli"]
+  },
+  {
+    "tag": "NCC_AWARDS & ACHIEVEMENTS",
+    "patterns": ["AWARDS & ACHIEVEMENTS of  National Cadet corps"],
+    "responses": [
+      "GSGT.B.Sivaguru – Independence day camp” – to directorate the Delhi Fort,GSGT.C.Nishanth & GSGT.K.Veiluraj – “National Thal Sainik Camp” – By UP Directorate – 14th to 15th September 2022,CPL.R.Dinesh Kumar – “Advance Leadership camp"
+    ]
+  },
+  {
+    "tag": "NSS",
+    "patterns": [
+      "about NSS",
+      "NCC",
+      "about National Service Scheme",
+      "National Service Scheme"
+    ],
+    "responses": [
+      "The National Service Scheme (NSS) is a Central Sector Scheme of Government of India, Ministry of Youth Affairs & Sports.The ideological orientation of NSS was inspired by the ideals of Mahatma Gandhi and started in 1969. “Education through Service” is the purpose of the NSS,NEC has two NSS units, each with 100 volunteers. The first unit was started in 1984.Due to an overwhelming response from the students, a second unit was started and has been functioning since 1999.These units provide an opportunity for those who want to serve the community around the institution. NSS volunteers participated in regular social service activities like conducting blood donation camps, health awareness camps, environmental awareness camps, tree planting, creating awareness about the Clean India Campaign, campus cleaning, the self-employment programme, and visiting and donating goods to nearby orphanages and mental health homes."
+    ]
+  },
+  {
+    "tag": "NSS_vision",
+    "patterns": ["What is the vision of the National Service scheme"],
+    "responses": [""],
+    "context": ["To build the youth with the mind and spirit to serve society and work for the social uplift of the downtrodden masses of our nation as a movement."]
+  },
+  {
+    "tag": "NSS_motto",
+    "patterns": ["What is the motto of the National Service scheme?"],
+    "responses": [""],
+    "context": ["“NOT ME BUT YOU”, reflects the value of democratic living and upholds the need for selfless service."]
+  },
+  {
+    "tag": "NSS_mision",
+    "patterns": ["What is the mission of the Service scheme?"],
+    "responses": [""],
+    "context": ["Personality development of the students through Community Service and Community Service through education."]
+  },
+  {
+    "tag": "NSS_Activities",
+    "patterns": ["What are the activities conducted through the National Service scheme?"],
+    "responses": [
+      "1 Public Awareness Program at Chatrapatti 07.08.2022. 2 School Students Competition and Women Education Awareness Camp at K. R. Saratha Government Higher Secondary School, Nalattinpudhur 10.08.2022. 3 Drive Against Drugs Awareness Program at National Engineering College, Kovilpatti 11.08.2022. 4 Walkathon and Mime Competition organized by Food Safety Department Thoothukudi 12.08.2022. 5 Voter id linked with Aadhaar Camp at National Engineering College 20.08.2022. 6 Flag Collection Drive in and around Kovilpatti 27.08.2022. 7 Railvandi 2.0 – Thodar 1 through Gmeet live 28.08.2022. 8 Women’s Health Awareness Program, on the eve of WIFS DAY Celebration at National Engineering College 15.09.2022. 9 Mini Marathon, as a part of Founders Day Celebration for girl students 17.09.2022. 10 NSS and UBA jointly donated the Multi Crop Seed showing Machine to Farmers at National Engineering College 17.09.2022. 11 Cleanliness Mission at Kovilpatti Railway Station, Shenbagavalli Amman Kovil and Kathireesan Malai Kovil 17.09.2022. 12 Pudhusu Pudhusa...!!! Dhinusu Dhinusha ...!!! (A Converse on current affairs on August 22) through online jointly with UBA 18.09.2022. 13 NSS Orientation Program 2K22 at National Engineering College 24.09.2022. 14 Railvandi 2.0 - Thodar 2 through Google Meet live 25.09.2022. 15 Wall magazine and Poster making Competition, on the theme of 'My Vote is my Right' and 'The Power of One Vote' along with Electoral Literacy Club at National Engineering College 27.09.2022. 16 One day Workshop on Poster making at National Engineering College 08.10.2022. 17 Donation Drive’22 – Orphanage Visit –Avvai Ashramam 15.10.2022. 18 Clean India 2.0 – Plastic Collection Week at Kovilpatti 22.10.2022. 19 Awareness Programme on Air and Noise pollution caused by bursting of Crackers through online platform 23.10.2022. 20 Clean Campaign at Kovilpatti Government Hospital 05.11.2022. 21 New Voter’s Registration Human Rally 11.11.2022."
+    ]
+  },
+  {
+    "tag": "NSS_volunteers",
+    "patterns": ["No.of student volunteers in National Service scheme"],
+    "responses": ["200 "]
+  },
+  {
+    "tag": "NSS_Duration of Membership",
+    "patterns": ["Duration of Membership in National Service scheme"],
+    "responses": ["2 years"]
+  },
+  {
+    "tag": "NSS_President",
+    "patterns": ["who is the president of  National Service scheme?"],
+    "responses": [
+    "M. Yogesh, Mechanical/Final Year (Unit I), D. Harini, IT/Final Year (Unit II)"
+    ]
+  },
+  {
+    "tag": "NSS_Faculty_Coordinators",
+    "patterns": ["who is the Faculty Coordinators of  Service scheme?"],
+    "responses": [
+    "Mr. K. Subramanian, AP (SG)/ECE (unit I)"
+    ]
+  },
+  {
+    "tag": "NSS_AWARDS & ACHIEVEMENTS",
+    "patterns": ["AWARDS & ACHIEVEMENTS of  Service scheme"],
+    "responses": [
+    "District Level Best implementation of Swachh Bharat Abhiyan-2017,District Level Best implementation of Swachh Bharat Abhiyan-2018,State Level Best NSS Unit Award-2019,Best NSS Volunteer Award – 2020,UBA Perennial Assistance Award – 2021,University Best NSS Programme Officer – 2022"
+    ]
+  },
+  {
+    "tag": "Youth Welfare association",
+    "patterns": [
+      "about Youth Welfare association",
+      "Youth Welfare association"
+    ],
+    "responses": [
+      "This club is involved in youth activities which help the students to develop skills and bring changes in environmental issues."
+    ]
+  },
+  {
+    "tag": "Youth Welfare association_vision",
+    "patterns": ["What is the vision of the Youth Welfare association?"],
+    "responses": ["Aim to develop an ecosystem for the youth to provide them with skills, resources, and motivation to achieve sustainable development goals."]
+  },
+  {
+    "tag": "Youth Welfare association_Mission",
+    "patterns": ["What is the mission of the Youth Welfare association?"],
+    "responses": [
+      "Youth Welfare Club prepares teams for participation in Youth Festival events like Debate, Elocution, Quiz, Painting, Flower Arrangement, Rangoli, One Act Play, and Skit."
+    ]
+  },
+  {
+    "tag": "Youth Welfare association_Activities",
+    "patterns": ["What are the activities conducted through the Youth Welfare association?"],
+    "responses": [
+      "PowerPoint Presentation,Essay Writing,Quiz,Poster Making,Poem Writing,Elocution"
+    ]
+  },
+  {
+    "tag": "Youth Welfare association_volunteers",
+    "patterns": ["No.of student volunteers in Youth Welfare association"],
+    "responses": ["10"]
+  },
+  {
+    "tag": "Youth Welfare association_Duration of Membership",
+    "patterns": ["Duration of Membership in Youth Welfare association"],
+    "responses": ["3 years"]
+  },
+  {
+    "tag": "Youth Welfare association_President",
+    "patterns": ["who is the president of  Youth Welfare association"],
+    "responses":["RENUKA SRE V/ IT, RAMYA A/ IT, RAGUL S / EEE."]
+  },
+  {
+    "tag": "Youth Welfare association_Faculty_Coordinators",
+    "patterns": ["who is the Faculty Coordinators of  Youth Welfare association?"],
+    "responses": ["Dr.P.Ram Kumar, AP/S&H"]
+  },
+  {
+    "tag": "Youth Welfare association_AWARDS & ACHIEVEMENTS",
+    "patterns": ["AWARDS & ACHIEVEMENTS of Youth Welfare association"],
+    "responses": [
+      "Best Paper Award in All India Essay Writing Event."
+    ]
+  },
+  {
+    "tag": "Yoga",
+    "patterns": [
+      "about Yoga",
+      "Yoga"
+    ],
+    "responses": [
+      "Yoga club helps to spread awareness of the benefits of Yoga among students and faculty members. The club organises a variety of Yoga activities for students and staff members to attain a higher level of consciousness of Yoga Education. We actively practise Yoga principles and seek a ray of wisdom that brings true happiness and inner peace."
+    ]
+  },
+  {
+    "tag": "Yoga_vision",
+    "patterns": ["What is the vision of the Yoga?"],
+    "responses": ["To Transform students into responsible citizens of the World, who are-physically, mentally and spiritually healthy."]
+    },
+  {
+    "tag": "Yoga_Mission",
+    "patterns": ["What is the mission of the Yoga?"],
+    "responses": [
+      "To enhance the Physical, Mental, Spiritual and Social Health of the students through the regular practice of Yoga."
+    ]
+  },
+  {
+    "tag": "Yoga_Activities",
+    "patterns": ["What are the activities conducted through the Yoga club?"],
+    "responses": [
+      "One Year-Diploma Course on Yoga for Youth Empowerment (YYE)- SKY Exercise, Asanas,Meditation,Kayakalpa Practice and Self Introspection practices International Yoga Day-Events and activities conducted every June 21st. Yoga Service to the rural people-Vilathikulam,Villiseri,Ayyaneri."
+    ]
+  },
+  {
+    "tag": "Yoga",
+    "patterns": ["No.of student volunteers in Yoga"],
+    "responses": ["325"]
+  },
+  {
+    "tag": "Yoga_Duration of Membership",
+    "patterns": ["Duration of Membership in Yoga"],
+    "responses": ["1 years"]
+  },
+  {
+    "tag": "Yoga_Convenor",
+    "patterns": ["who is the Convenor of  Yoga"],
+    "responses":  ["Dr. S Tamil Selvi, Professor & Head, ECE "]
+  },
+  {
+    "tag": "Yoga_Faculty_Coordinators",
+    "patterns": ["who is the Faculty Coordinators of  Yoga?"],
+    "responses": ["Ms.S.Malathi, Assistant Professor/ECE , Ms.C.Gawari, AP/Civil"]
+  },
+  {
+    "tag": "Yoga_AWARDS & ACHIEVEMENTS",
+    "patterns": ["AWARDS & ACHIEVEMENTS of yoga"],
+    "responses": [
+      "Yoga Club Convenor, Dr. S Tamil Selvi received Vethathiri Maharishi Thathuva Gnani Gnanasiriur Award from Padmasree SMK Mayilanadham, President, World Community Service Centre, Chennai on 02.06.2019 at Temple of Consciousness, Aliyar."
+    ]
+  },
+  {
+    "tag": "Red Ribbon club",
+    "patterns": [
+      "about Red Ribbon club",
+      "Red cross"
+    ],
+    "responses": [
+      "The RRC youth of National Engineering College, Kovilpatti is encourages to learn about safe and healthy lifestyles. The RRC promotes access to information on healthy life and voluntary blood donation. They create and provide opportunities for the zeal of volunteerism among youth to contribute towards the control and prevention of HIV & AIDS. The Red Ribbon Club is a voluntary on-campus intervention program for students."
+      ],
+    "context": [""]
+  },
+  {
+    "tag": "Red Ribbon club_vision",
+    "patterns": ["What is the vision of the Red Ribbon club?"],
+    "responses": ["The motto of the Red Ribbon Express is “Embarking on the journey of life“."],
+    "context": [""]
+  },
+  {
+    "tag": "Red Ribbon club_Mission",
+    "patterns": ["What is the mission of the Red Ribbon club?"],
+    "responses": [
+      "To promote service and solidarity. To uphold the protection of life and the promotion of health. To promote national and international friendship. To disseminate the Red Cross ideals and International Humanitarian Law." ],
+    "context": [""]
+  },
+  {
+    "tag": "Red Ribbon club_Activities",
+    "patterns": ["What are the activities conducted through the Red Ribbon clubclub?"],
+    "responses": [
+      "Celebrating Life Program Peer education and leadership trainings Cultural Competitions Awareness campaigns (Rallies, Outreach activities)"]
+  },
+  {
+    "tag": "Red Ribbon club",
+    "patterns": ["No.of student volunteers in Red Ribbon club"],
+    "responses": ["100"]
+  },
+  {
+    "tag": "Red Ribbon club_Duration of Membership",
+    "patterns": ["Duration of Membership in Red Ribbon club"],
+    "responses": ["3 years"]
+  },
+  {
+    "tag": "Red Ribbon club_president",
+    "patterns": ["who is the president of  Red Ribbon club"],
+    "responses":["A.Akshaya, EEE/ Final year "]
+  },
+  {
+    "tag": "Red Ribbon club_Faculty_Coordinators",
+    "patterns": ["who is the Faculty Coordinators of  Red Ribbon club?"],
+    "responses": ["Ms.K.Muthulakshmi, AP/S&H"]
+  },
+  {
+    "tag": "Red Ribbon club_AWARDS & ACHIEVEMENTS",
+    "patterns": ["AWARDS & ACHIEVEMENTS of red Ribbon club"],
+    "responses": [
+      "Best Motivating Award for Blood Donation by GH, Kovilpatti. (2021)"
+    ]
+  },
+  {
+    "tag": "Red cross",
+    "patterns": [
+      "about Red cross",
+      "Red cross"
+    ],
+    "responses": [
+      "The Red Cross Society is a worldwide, well-known, universally accepted, admired and internationally identified humanitarian service organization. It is the biggest, independent non-religious, non-political, non-sectarian and voluntary relief organization treating people equally all over the world without any discrimination as to their nationality race and religious belief. It was established in 1863 in Geneva, Switzerland. The Father of Red Cross Movement and recipient of the noble award for Peace in 1901 was “Jean Henry Dunant”, who was a successful businessman. While going on a business mission, Dunant came on 24th June 1859 to Castiglione."
+    ]
+  },
+  {
+    "tag": "Red cross_vision",
+    "patterns": ["What is the vision of the Red cross?"],
+    "responses": ["To inculcate leadership in the youth of our country.To ensure the understanding and acceptance of civic and human responsibilities.To offer first aid training to all the YRC volunteers.To promote voluntary blood donation among the youth."]
+  },
+  {
+    "tag": "Red cross_Mission",
+    "patterns": ["What is the mission of the Red cross?"],
+    "responses": [
+      "Protection of health and life.Service to the sick and suffering.Promotion of national and international friendship to develop the mental and moral capacities of the youth."
+    ]
+  },
+  {
+    "tag": "Red cross_Activities",
+    "patterns": ["What are the activities conducted through the Red cross club?"],
+    "responses": [
+      "Blood Donation, Awareness program on various health issues.List the varied activities conducted by the club in an academic year"
+    ]
+  },
+  {
+    "tag": "Red cross",
+    "patterns": ["No.of student volunteers in Red cross"],
+    "responses": ["150"]
+  },
+  {
+    "tag": "Red cross_Duration of Membership",
+    "patterns": ["Duration of Membership in Red cross"],
+    "responses":["3 years"]
+  },
+  {
+    "tag": "Red cross_president",
+    "patterns": ["who is the president of  Red cross"],
+    "responses": ["A.S.N.Jaanu, EEE/ Final year "]
+  },
+  {
+    "tag": "Red cross_Faculty_Coordinators",
+    "patterns": ["who is the Faculty Coordinators of  Red cross?"],
+    "responses":["Mr.A.Muthusamy, AP/S&H"]
+  },
+  {
+    "tag": "Red Cross_AWARDS & ACHIEVEMENTS",
+    "patterns": ["AWARDS & ACHIEVEMENTS of red cross"],
+    "responses": [
+      "Best Motivating Award for Blood Donation by GH, Kovilpatti. (2021).Best Motivating Award from Meenakshi Mission, Madurai. (2017)"
+    ]
+  },
+  {
+    "tag": "Eco Club",
+    "patterns": [
+      "about Eco Club",
+      "Eco Club"
+    ],
+    "responses": [
+      "The Eco Club is a voluntary group which promotes the participation of students to educate about their immediate environment and the causes of its deterioration. It also imparts knowledge on the concepts of eco-systems through field visits. Encourages the students to minimize the usage of plastic bags in public areas. Organizes tree plantation programmes and awareness programmes such as MIME regarding various environmental issues."   ]
+  },
+  {
+    "tag": "Eco Club_vision",
+    "patterns": ["What is the vision of the Eco Club?"],
+    "responses": ["Our Vision is to create awareness on Environmental and Social Sustainability."]
+  },
+  {
+    "tag": "Eco Club_Mission",
+    "patterns": ["What is the mission of the Eco Club?"],
+    "responses": [
+      "Educating and Inspiring Lives to inculcate a sense of sustainable habits and sustainable practices."  ]
+  },
+  {
+    "tag": "Eco Club",
+    "patterns": ["No.of student volunteers in Eco Club"],
+    "responses": ["212"]
+  },
+  {
+    "tag": "Eco Club_Duration of Membership",
+    "patterns": ["Duration of Membership in Eco Club"],
+    "responses": ["3 years"]
+  },
+  {
+    "tag": "Eco Club_president",
+    "patterns": ["who is the President of  Eco Club"],
+    "responses": ["Ms.P.Ida Hope, IV Year ECE Secretary:Mr.P.Muhamath Ishaak, IV Year MECH"],
+    "context": [" "]
+  },
+  {
+    "tag": "Eco Club_Faculty_Coordinators",
+    "patterns": ["who is the Faculty Coordinators of  Eco Club?"],
+    "responses": [""],
+    "context": ["Mr.I.Vivek Anand, AP(SG)/ECE Dr.B.Vigneshwaran, AP(SG)/EEE"]
+  },
+  {
+    "tag": "Rotaract Club",
+    "patterns": [
+      "about Rotaract Club",
+      "Rotaract Club"
+    ],
+    "responses": [
+      "“Rotaract” stands for “Rotary in Action”. Rotaract focuses on the development of young adults as leaders in their communities and workplaces. Members will play an active role in service project work, social events, or professional/leadership development workshops." ]
+  },
+  {
+    "tag": "Rotaract Club_vision",
+    "patterns": ["What is the vision of the Rotaract Club?"],
+    "responses": ["To train young blood with good morals and to serve the society with good will and care."]
+  },
+  {
+    "tag": "Rotaract Club_Mission",
+    "patterns": ["What is the mission of the Rotaract Club?"],
+    "responses": [
+      "To develop professionals with leadership skills.To emphasize respect for the rights of others and to promote ethical standards.To provide opportunities for people to address the needs and concerns of the community"]
+  },
+  {
+    "tag": "Rotaract Club",
+    "patterns": ["No.of student volunteers in Rotaract Club"],
+    "responses": ["50"]
+  },
+  {
+    "tag": " Rotaract Club_Duration of Membership",
+    "patterns": ["Duration of Membership in Rotaract Club"],
+    "responses": ["3 years"]
+  },
+  {
+    "tag": "Rotaract_Club_president",
+    "patterns": ["Who is the President of Rotaract Club?"],
+    "responses": ["Ms. A. Tejaswini, III Year CSE - President\nMs. Seethalakshmi, II Year ECE - Vice President\nMs. G. Keerthikasree, III Year CSE - Secretary\nMr. Bala Vignesh, II Year CSE - Joint Secretary\nMr. Siva Shakthi Dharan, III Year ECE - Treasurer"]
+  },
+  {
+    "tag": "Rotaract Club_Faculty_Coordinators",
+    "patterns": ["who is the Faculty Coordinators of  Rotaract Club?"],
+    "responses":["Mr.S.Cammillus, AP(SG)/ECE"]
+  },
+  {
+    "tag": "Finearts",
+    "patterns": [
+      "about Finearts",
+      "Finearts"
+    ],
+    "responses": [
+      "The Fine Arts Club of our college is dedicated to enhance the students’ artistic competencies in collaboration with peers and professionals. Members of the club use various visual mediums and techniques to express their thoughts in many art forms, such as dance, music, roleplay, and martial arts, with infinite inventiveness. Along with creating artwork and hosting exhibitions, the Fine Arts Club also holds competitions for students and others, giving them visibility and encouraging them to develop their talents."]
+  },
+  {
+    "tag": "Finearts_motto",
+    "patterns": ["What is the motto of the Finearts?"],
+    "responses": ["TO DARE IS TO DO"]
+  },
+  {
+    "tag": "Finearts_vision",
+    "patterns": ["What is the vision of the Finearts?"],
+    "responses": ["Brings in young inspiring minds to touch life with vibrance and inclusiveness of art."]
+  },
+  {
+    "tag": "Finearts_Mission",
+    "patterns": ["What is the mission of the Finearts?"],
+    "responses": ["To encourage and develop the leadership quality and teamwork of the students through cultural events.To improve the aesthetic sense of students. To foster high-level and creative thinking as well as the mental health of the students"]
+  },
+  {
+    "tag": "Finearts",
+    "patterns": ["No.of student volunteers in Finearts"],
+    "responses": ["325"]
+  },
+  {
+    "tag": "Finearts_Duration of Membership",
+    "patterns": ["Duration of Membership in Finearts"],
+    "responses": ["4 years"]
+  },
+  {
+    "tag": "Finearts_President",
+    "patterns": ["who is the Pressident of  Finearts"],
+    "responses": ["Anshio SV, Final year, Computer Science & Engineering."]
+  },
+  {
+    "tag": "Finearts_Faculty_Coordinators",
+    "patterns": ["who is the Faculty Coordinators of  Finearts?"],
+    "responses": ["Mr.J.Thamba, AP/S&H. Ms.P.Arishenbagam, AP/ECE"]
+  },
+  {
+    "tag": "Courses",
+    "patterns": [
+      "What are the Courses offered by nec?",
+      "courses in NEC",
+      "courses"
+    ],
+    "responses": [
+      "Mechanical Engineering,Computer Science And Engineering,Electronics And Communication Engineering,Electrical And Electronics Engineering,Civil Engineering,Information Technology,Artificial Intelligence And Data Science,Science & Humanities"
+    ]
+  },
+  {
+    "tag": "Pricipal",
+    "patterns": [
+      "who is the principal of national engineering college?",
+      "who is the principal of nec",
+      "pricipal"
+    ],
+    "responses": [
+      "Dr.K.Kalidasa Murugavel"
+    ]
+  },
+  {
+    "tag": "Director",
+    "patterns": [
+      "who is the Director of national engineering college?",
+      "who is the Director of nec",
+      "Director"
+    ],
+    "responses": [
+      "Dr.S.Shanmugavel"
+    ]
+  },
+  {
+    "tag": "Chairman",
+    "patterns": [
+      "who is the Chairman of national engineering college?",
+      "who is the Chairman of nec",
+      "Chairman"
+    ],
+    "responses": [
+      "Thiru.K.R.Arunachalam"
+    ]
+  },
+  {
+    "tag": "Founder",
+    "patterns": [
+      "who is the Founder of national engineering college?",
+      "who is the Founder of nec",
+      "Founder "
+    ],
+    "responses": [
+      "Thiru.K.Ramasamy"
+    ]
+  },
+  {
+    "tag": "Nec",
+    "patterns": [
+      "about National Engineering College",
+      "National Engineering College",
+      "NEC"
+    ],
+    "responses": ["NEC, the most prominent landmark of Kovilpatti, has been the crowning glory of this Matchless City of Matches. Its celebrated ‘Son of the Soil’ Thiru.K.Ramasamy transformed the entire social and cultural scenario in and around this small town by establishing the excellent educational institution popularly referred as “NEC”. By wielding the magical wand of social commitment and munificence this foresighted philanthropist transformed a strip of barren land into a magnificent academic complex that has been consistently producing infallible engineers of high competence right from the day of its inception in 1984. This much-acclaimed temple of erudition was established under the self-financing scheme sanctioned by the Government of Tamilnadu G.O. No. 939 dated 20.07.1984 by the National Educational and Charitable Trust, Kovilpatti, Thoothukudi district"]
+  },
+
+  {
+    "tag": "NEC_vision",
+    "patterns": ["What is the vision of the college?"],
+    "responses": ["Transforming lives through quality education and research with human values."]
+  },
+  {
+    "tag": "bus_facility",
+    "patterns": [
+      "Is bus facility available in national engineering college?",
+      "Is bus facility available  nec?",
+      "Bus facility "
+    ],
+    "responses": [
+      "Yes"
+    ],
+    "context": [""]
+  },
+  {
+    "tag": "hostel",
+    "patterns": [
+      "Is hostel facility available in national engineering college?",
+      "Is hostel facility available  nec?",
+      "hostel  facility "
+    ],
+    "responses": [
+      "Yes,hostel facility available for both gender"
+    ]
+  },
+  {
+    "tag": "College",
+    "patterns": [
+      "which year college was established?","NEC founded in?"
+    ],
+    "responses": [
+      "20.07.1984"
+    ]
+  }
+  ]
+}
